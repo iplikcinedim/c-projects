@@ -7,8 +7,12 @@ void swap(int *a, int *b) {
 }
 
 int main() {
-    int x = 10;
-    int y = 20;
+    printf("Welcome to the C17 Swap Program!\n");
+    int x = 0;
+    int y = 0;
+
+    printf("Please enter two integers: ");
+    scanf("%d %d", &x, &y);
 
     printf("Before swap: x = %d, y = %d\n", x, y);
     swap(&x, &y);
