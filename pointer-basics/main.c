@@ -7,7 +7,7 @@ void swap(int *a, int *b) {
 }
 
 int main() {
-    printf("Welcome to the Swap Program!\n");
+    printf("Welcome to the swap program!\n");
     int x = 0;
     int y = 0;
 
